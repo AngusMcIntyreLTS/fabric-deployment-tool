@@ -167,7 +167,7 @@ class fdtUtils:
                     new_source = {
                         "id": str(uuid.uuid4()),
                         "name": name,
-                        "type": "FabricCapacityUtilizationEvents",
+                        "type": "FabricCapacityOverviewEvents",
                         "properties": {
                             "eventScope": "Capacity",
                             "capacityId": capacity_id,
